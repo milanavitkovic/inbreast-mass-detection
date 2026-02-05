@@ -28,6 +28,17 @@ Build a system that:
 
 ## Data
 
+### Dataset Structure
+- **INBreast dataset**  
+→ Mammography images + Excel file with metadata and labels
+
+- **Excel file contains**:
+  - Patient ID
+  - File Name
+  - Laterality (L/R)
+  - View (CC/MLO)
+  - **Binary label: Mass (1) vs No Mass (0)**
+    
 ### Training
 - **INBreast dataset (train split)**  
 → Mammography images with binary labels (Mass vs No Mass)
